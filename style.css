@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    text-align: center;
+    padding: 30px;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+/* Aquí los contenedores centrados */
+
+#Tablas {
+    max-width: 450px;
+    margin: 0 auto 30px auto;
+    text-align: left; 
+}
+
+
+#Tablas p {
+    background-color: #ffffff;
+    border-left: 5px solid #2980b9; 
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px; 
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05); 
+    font-size: 18px;
+    color: #555;
+    transition: transform 0.2s ease; 
+}
+
+/* Efecto hover */
+#Tablas p:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0px 4px 10px rgba(41, 128, 185, 0.2);
+}
+
+
+#Tablas strong {
+    color: #2980b9;
+}
+
+
+#resultado {
+    background-color: #cc0000; 
+    color: white;
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin: 0 auto;
+    max-width: 450px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    font-size: 22px;
+}
+
+#resultado p {
+    margin: 0;
+}
+
+#resultado strong {
+    color: #FFEDB9; 
+}
