@@ -16,4 +16,4 @@ Multiplicar la variable factorial por i y actualizar su valor.
 
 Imprimir el valor final de factorial en consola y en el DOM.
 
-FIN# ProgrammingLogic3_AL
+FIN
